@@ -1,5 +1,5 @@
 import {combineReducers} from 'redux';
-import { authReducer } from '../router/authReducer';
+import { authReducer } from '../reducers/authReducer';
 import { calendarReducer } from './calendarReducer';
 
 import { uiReducer } from './uiReducer';

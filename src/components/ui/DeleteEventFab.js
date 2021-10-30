@@ -6,11 +6,9 @@ export const DeleteEventFab = () => {
 
     const dispatch = useDispatch();
 
-
     const hadleDeleted = () => {
-        dispatch(eventStartDelete() )
+        dispatch(eventStartDelete())
     }
-
 
     return (
         <>
